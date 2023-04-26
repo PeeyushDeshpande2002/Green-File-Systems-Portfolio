@@ -1,0 +1,175 @@
+:root{
+    --color-body : black;
+    --color-brand : #86EE60;
+    --color-heading :#27AE60 ;
+    --color-base : #ffff;
+    --color-base2 : #F4F7ED;
+    --color-brand2 : #2E6E65;
+    --topbar-width : 150px;
+    --font-family : sans-serif;
+}
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+    background-color: var(--color-base);
+    color: var(--color-body);
+    font-family: var(--font-family);
+
+}
+footer{
+    background-color: var(--color-base2);
+}
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255,255,255, 0.1);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover{
+    color: var(--color-brand);
+}
+
+img{
+    width: 100%;
+}
+h2{
+    color: var(--color-heading);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(var(--color-brand), var(--color-heading));
+    -webkit-background-clip: text;
+    background-clip: none;
+    -webkit-text-fill-color: transparent;
+}
+h4{
+    color: var(--color-heading);
+    
+}
+/*NAVBAR
+*/
+.navbar-brand{
+    width: 140px;
+    height: 40px;
+}
+.navbar__logo__img{
+    max-width: 100%;
+    max-height: 100% ;
+}
+.navbar .nav-link{
+    color: var(--color-heading);
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.navbar .nav-link:hover{
+    color: var(--color-brand);
+}
+.custom-toggler.navbar-toggler-icon{
+    color: var(--color-heading);
+}
+/*Content*/
+
+/*Home*/ 
+   
+.sub-heading-container{
+    color: var(--color-heading);
+    font-weight: 300;    
+}
+#content-wrapper{
+    /*margin-top: var(--topbar-width);*/
+    margin-left: 70px;
+    
+}
+.btn-content{
+    background-color: var(--color-brand);
+    background: linear-gradient(135deg, #9ff669, #31de79, 100%);
+}
+.btn-content:hover{
+    background-color: var(--color-heading);
+}
+/*Wet Management*/
+.link-custom{
+    color: var(--color-heading);
+}
+.link-custom:hover{
+    color: var(--color-brand);
+    text-decoration: underline;
+}
+.bg-base{
+    background-color: var(--color-base2);
+    padding-top: 10px ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.shadow-effect{
+    transition: all 0.5s;
+}
+.shadow-effect:hover{
+    box-shadow: -6px 6px 0 0 var(--color-heading);
+}
+.iconbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-heading);
+    color: var(--color-body);
+}
+/*Housekeeping*/
+
+.card-custom .card-custom-image{
+    overflow: hidden;
+}
+.card-custom{
+    width: 200px;
+    height: 300px;
+}
+.bg-card{
+    width: 650px;
+    height: 250px;
+    background-color: var(--color-base2);
+    padding-top:  20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    
+}
+.card-custom-content{
+    width: 200%;
+}
+.advanced-methods{
+    margin-left: 150px;
+}
+.deep-cleaning{
+    margin-left: 300px;
+}
+.gf-warriors{
+    margin-left: 450px;
+}
+
+
+.footer-text{
+
+color: var(--color-heading);
+}
